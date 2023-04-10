@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import DeleteIcon from "../components/icons/delete-icon";
-import EditIcon from "../components/icons/edit-icon";
+import EditIcon from "./components/icon/edit-icon";
+import DeleteIcon from "./components/icon/delete-icon";
 
 function App() {
     const [todoList , setTodoList] = useState((list))
